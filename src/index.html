@@ -23,17 +23,68 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="d-none d-md-block col-md-3" style="border:1px solid #333">
-          <ul>
-            <p>sidebar</p>
+    <nav class="d-md-none navbar navbar-expand-md navbar-light bg-light mb-3">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
         </div>
-        <div class="col-xs-12 col-md-9" style="border:1px solid #333">
-          <ul>
-            <p>content</p>
-          </ul>
+      </div>
+    </nav>
+    <div class="container-fluid h-100 no-gutters p-0">
+      <div class="row h-100 no-gutters">
+        <div id="sidebar" class="d-none d-md-block col-md-3 bg-light text-dark h-100 no-gutters">
+
+          <div class="d-flex my-5 banner">
+
+            <h5 class="logo-title">Your journey starts here...</h5>
+
+
+          </div>
+
+          <div class="ml-auto logo-container bg-light">
+            <img id="star-logo" class="bg-light" src="https://s3.ap-northeast-2.amazonaws.com/outland-test-site/Star_Citizen_logo.png" alt="starcitizen logo">
+          </div>
+
+          <div class="col d-flex justify-content-center my-5">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <div class="star-card text-light text-right star-text d-flex flex-column-reverse">
+            <p class="lead m-4 align-self-end"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.</p>
+            <h1 class="display-4 m-4 align-self-end">Discover Our Universe</h1>
+
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,47 @@
+html,
+body {
+	height: 100%;
+}
+
+#star-logo {
+	width: 93px;
+	height: auto;
+	position: relative;
+	top: -35px;
+	left: -23px;
+}
+
+.logo-container {
+	position: relative;
+	left: 75px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 50px;
+	z-index: 1;
+}
+
+.banner {
+	padding-top: 125px;
+	width: 100%;
+}
+
+.logo-title {
+	font-size: 30px;
+	font-size: 2.3vw;
+	line-height: 37px;
+	text-align: center;
+	z-index: 3;
+}
+
+.star-card {
+	height: 700px;
+	z-index: -1;
+	background-image: url('https://s3.ap-northeast-2.amazonaws.com/outland-test-site/greg-rakozy-38802.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.star-text {
+	margin-top: auto;
+}
